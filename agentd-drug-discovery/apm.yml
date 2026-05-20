@@ -1,0 +1,13 @@
+name: agentd-drug-discovery
+version: 0.1.0
+description: Use the AgentD workflow to mine evidence, design molecules, and rank candidates with SAR plus ADMET annotations
+  for early drug discovery tasks.
+license: PROPRIETARY
+author: OpenClaw-Medical-Skills
+includes: auto
+dependencies:
+  apm: []
+  mcp: []
+metadata:
+  source: FreedomIntelligence/OpenClaw-Medical-Skills
+  converted_at: Phase-0 spike
