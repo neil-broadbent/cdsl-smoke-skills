@@ -1,0 +1,11 @@
+name: bad-prompt-thin
+version: 0.1.0
+description: A symptom-checker prompt.
+license: MIT
+author: CDSL smoke tests
+includes: auto
+dependencies:
+  apm: []
+  mcp: []
+metadata:
+  note: deliberately low-quality body — smoke-test fixture for QS content banding

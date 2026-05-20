@@ -1,0 +1,8 @@
+description: A command to export a filtered patient cohort to CSV.
+author: CDSL smoke tests
+includes: auto
+dependencies:
+  apm: []
+  mcp: []
+metadata:
+  note: apm.yml deliberately omits the required name (and version) — smoke-test for the parse hard-floor

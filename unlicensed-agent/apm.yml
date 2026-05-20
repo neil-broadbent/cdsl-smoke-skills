@@ -1,0 +1,10 @@
+name: unlicensed-agent
+version: 0.1.0
+description: A diagnosis-suggestion agent with no declared licence.
+author: CDSL smoke tests
+includes: auto
+dependencies:
+  apm: []
+  mcp: []
+metadata:
+  note: deliberately omits the licence field and ships no LICENSE file

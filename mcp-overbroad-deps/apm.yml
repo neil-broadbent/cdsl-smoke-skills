@@ -1,0 +1,14 @@
+name: mcp-overbroad-deps
+version: 0.1.0
+description: An MCP server that bridges an agent to a hospital EHR system.
+license: MIT
+author: CDSL smoke tests
+includes: auto
+dependencies:
+  apm: []
+  mcp:
+    - name: ehr-gateway
+      command: npx
+      args: ["-y", "ehr-gateway-mcp@0.0.3"]
+metadata:
+  note: declares a broad-capability MCP server — smoke-test for capability/MCP surfacing

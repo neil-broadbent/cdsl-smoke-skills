@@ -1,0 +1,11 @@
+name: hook-hidden-unicode
+version: 0.1.0
+description: A pre-commit hook that scans staged files for patient identifiers.
+license: Apache-2.0
+author: CDSL smoke tests
+includes: auto
+dependencies:
+  apm: []
+  mcp: []
+metadata:
+  note: the hook body carries zero-width characters — smoke-test for the hidden-unicode scanner

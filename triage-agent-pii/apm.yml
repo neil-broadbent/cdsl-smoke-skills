@@ -1,0 +1,11 @@
+name: triage-agent-pii
+version: 0.2.0
+description: Patient triage instruction for an A&E intake agent.
+license: MIT
+author: CDSL smoke tests
+includes: auto
+dependencies:
+  apm: []
+  mcp: []
+metadata:
+  note: deliberately embeds synthetic PHI — smoke-test fixture for the PII/PHI scanner
